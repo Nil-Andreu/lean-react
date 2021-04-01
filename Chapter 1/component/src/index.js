@@ -4,6 +4,7 @@ import './index.css';
 
 import MySection from './MySection.jsx';
 import MyButton from './MyButton.jsx';
+import MyComponent from './MyComponent';
 
 render(
   <Fragment>
@@ -12,6 +13,10 @@ render(
         My Button Text
       </MyButton>
     </MySection>
+    <MyComponent>
+      <MyComponent.First /> 
+      <MyComponent.Second />
+    </MyComponent>
   </Fragment>,
   document.getElementById('root')
 );
