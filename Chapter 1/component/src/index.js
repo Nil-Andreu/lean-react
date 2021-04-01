@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Fragment } from 'react';
+import { render } from 'react-dom';
+import './index.css';
 
 import MySection from './MySection.jsx';
 import MyButton from './MyButton.jsx';
 
-ReactDOM.render(
-  <React.StrictMode>
+render(
+  <Fragment>
     <MySection>
       <MyButton>
         My Button Text
       </MyButton>
     </MySection>
-  </React.StrictMode>,
+  </Fragment>,
   document.getElementById('root')
 );
 

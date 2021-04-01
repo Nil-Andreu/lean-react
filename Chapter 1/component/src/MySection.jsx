@@ -5,7 +5,7 @@ export default class MySection extends Component{
         return (
             <section>
                 <h2>My Section</h2>
-                {this.props.childen}
+                {this.props.children}
             </section>
         );
     }
