@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import MySection from './MySection';
+import MySection from './MySection.jsx';
+import MyButton from './MyButton.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MySection>
+      <MyButton>
+        My Button Text
+      </MyButton>
+    </MySection>
   </React.StrictMode>,
   document.getElementById('root')
 );
