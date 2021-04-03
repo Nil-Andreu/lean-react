@@ -14,7 +14,7 @@ render(
       </MyButton>
     </MySection>
     <MyComponent>
-      <MyComponent.First /> 
+      <MyComponent.First /> {/*With the < /> is to say that it only render the component, with no children or props*/}
       <MyComponent.Second />
     </MyComponent>
   </Fragment>,
